@@ -1,6 +1,5 @@
 import math
 
-import sympy as sp
 
 
 def trapezoidal_integration(function, start_point, end_point, n=0):
@@ -21,7 +20,7 @@ def trapezoidal_integration(function, start_point, end_point, n=0):
     return I
 
 
-def find_required_partitions(second_derivative,required_epsilon,start_point,end_point) :
+def find_required_partitions(second_derivative, required_epsilon, start_point, end_point):
     '''
     finds required partitions
     :param second_derivative: second derivative of function
